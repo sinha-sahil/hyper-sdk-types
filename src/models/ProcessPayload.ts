@@ -1,4 +1,4 @@
-import { Service } from "./Service";
+import type { Service } from "./Service";
 
 export interface ProcessPayload {
   requestId: string;

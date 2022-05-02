@@ -1,5 +1,5 @@
-import { InitiatePayload } from "./models/InitiatePayload";
-import { ProcessPayload } from "./models/ProcessPayload";
+import type { InitiatePayload } from "./models/InitiatePayload";
+import type { ProcessPayload } from "./models/ProcessPayload";
 
 type JSONObject = {
   [key: string]: any
