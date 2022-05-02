@@ -1,0 +1,26 @@
+{
+  "name": "hyper-sdk-types",
+  "version": "0.0.1",
+  "description": "Type Declarations for Hyper SDK interfaces",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinha-sahil/hyper-sdk-types.git"
+  },
+  "keywords": [
+    "hyper-sdk-web",
+    "juspay",
+    "payments",
+    "types",
+    "hyper-sdk-types"
+  ],
+  "author": "Sahil Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinha-sahil/hyper-sdk-types/issues"
+  },
+  "homepage": "https://github.com/sinha-sahil/hyper-sdk-types#readme"
+}
