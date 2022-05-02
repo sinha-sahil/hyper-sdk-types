@@ -1,6 +1,6 @@
 {
   "name": "hyper-sdk-types",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Type Declarations for Hyper SDK interfaces",
   "types": "./src/index.d.ts",
   "scripts": {
