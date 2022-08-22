@@ -7,8 +7,13 @@ export interface InitiatePayload {
     action: 'initiate',
     merchantId: string,
     clientId: string,
+    customerId: string,
+    apiBaseURL: string,
     environment: 'prod' | 'sandbox',
     integrationType: 'iframe' | 'redirection',
-    hyperSDKDiv: string
+    hyperSDKDiv: string,
+    logLevel: '0' | '1',
+    deviceId?: string,
+    sessionToken?: string;
   }
 }
