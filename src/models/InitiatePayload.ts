@@ -1,8 +1,9 @@
 import type { Service } from "./Service";
 
 export interface InitiatePayload {
-  requestId: string,
-  service: Service,
+  requestId: string;
+  service: Service;
+  betaAssets: boolean;
   payload: {
     action: 'initiate',
     merchantId: string,
