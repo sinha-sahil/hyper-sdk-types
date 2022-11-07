@@ -15,5 +15,6 @@ export interface InitiatePayload {
     logLevel: '0' | '1',
     deviceId?: string,
     sessionToken?: string;
+    sessionId?: string;
   }
 }
