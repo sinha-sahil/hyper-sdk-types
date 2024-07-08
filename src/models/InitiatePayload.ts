@@ -17,5 +17,6 @@ export interface InitiatePayload {
     deviceId?: string,
     sessionToken?: string;
     sessionId?: string;
+    enableHyperCredit?:boolean;
   }
 }
